@@ -15,3 +15,12 @@ variable "profile_name" {
     default = "default"
   
 } 
+variable "public_ip" {
+    default = "aws_instance.web.public_ip"
+  
+}
+variable "private_ip" {
+    default = "aws_instance.web.private_ip"
+
+  
+}

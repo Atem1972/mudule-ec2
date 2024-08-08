@@ -1,6 +1,6 @@
   output "plic_ip" {
-        value = aws_instance.web.public_ip
+        value = var.public_ip
     }
     output "prvt_ip" {
-value = aws_instance.web.private_ip    
+value = var.private_ip  
     }
